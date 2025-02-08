@@ -1,0 +1,13 @@
+h1 {
+padding: 10px;
+margin: 10px;
+border: 1px solid black;
+/*background-color: burlywood;*/
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+color: yellow;
+font-size: 50px;
+}
+body {
+    background-color:white;
+}
