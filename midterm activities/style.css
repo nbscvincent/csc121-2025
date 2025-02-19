@@ -17,19 +17,19 @@ body {
  a {
     color:white;
  }
-  button {
+  #search {
     border-radius:10px;
     margin-right: 40px;
     margin-left: 0cm;
     text-align: center;
  }
 
-#footer {
- background-color: #C19A6B;
- display:flex;
- align-items: center;
- justify-content: space-between;
- padding: 10px;
+ #footer {
+   background-color: #C19A6B;
+   display:flex;
+   align-items: center;
+   justify-content: space-between;
+   border-bottom: 1px solid black;
 }
  #links {
    list-style: none;
