@@ -2,56 +2,68 @@ body {
    padding: 20px;
    margin: 0;
    border: 5px;
-}
+ }
  #header {
     background-color:#C19A6B;
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding: 10px
+    padding: 10px;
+    margin-bottom: 12cm;
+ }
+ .nav {
+   text-decoration: none;
  }
  h1{
-    font-family: lucida Sans;
+    font-style: Pacifico, serif ;
     color: white;
  }
  a {
     color:white;
  }
-  #search {
-    border-radius:10px;
-    margin-right: 40px;
-    margin-left: 0cm;
-    text-align: center;
+ #search {
+   border-radius: 10px;
  }
-
  #footer {
    background-color: #C19A6B;
    display:flex;
    align-items: center;
    justify-content: space-between;
    border-bottom: 1px solid black;
-}
- #links {
-   list-style: none;
-   display: flex;
-   gap: 15px; 
-   padding: 0;
-   margin: 0;
+  }
+ #icon {
+   margin-top: 4cm;
  }
-#links li {
-   display: inline; 
-   
-}
-
-#links a {
-   text-decoration: none;
-   color: white; 
-   font-weight: bold;
-}
-
-#icons {
-     display: flex;
-     gap: 10px;
-     margin-right: 60px;
-}
+ #tagline {
+   color: aliceblue;
+   margin-top: 20px;
+   font-size: 15px;
+ }
+ 
+ #footernav {
+ margin-right: 0cm;
+ margin-left: 12cm;
+ }
+ 
+ .nav-link {
+   color: white;           
+   text-decoration: none;    
+   font-size: 16px;          
+   margin: 0 15px;          
+   padding: 20px 10px;         
+   border-radius: 5px;        
+   transition: 0.3s;         
+ }
+ 
+ 
+ .nav-link:hover {  
+   color: lavender;           
+ }
+ 
+ p {
+   text-align: center;
+   justify-content: flex;
+   background-color: #C19A6B;
+   margin: 0px;
+ }
  
