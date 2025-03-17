@@ -9,13 +9,13 @@
 
 <body class="bg-[#fffbeb]">
     <div class="text-center mt-4">
-        <h1 class="text-amber-900 font-sans font-bold text-3xl">Sweet Delights Bakery</h1>
+        <h1 class="text-amber-900 font-sans font-bold text-2xl">Sweet Delights Bakery</h1>
         <p class="text-[#d37029] font-medium mt-1.5">Order Form</p>
     </div>
     <div class="flex items-center justify-center mt-6">
-        <div class="bg-white p-5 rounded-lg shadow-md w-full max-w-3xl">
+        <div class="bg-white p-5 rounded-lg shadow-md w-full max-w-xl">
             <form action="#" method="post" class="">
-                <h2 class="text-2xl text-[#d37029] font-medium mb-2">Customer Information</h2>
+                <h2 class="text-xl text-[#d37029] font-medium mb-2">Customer Information</h2>
                 <div class="mt-3">
                     <label for="Name" class="block font-medium mb-1">Full Name*</label>
                     <input type="text" name="fname" class="py-1 px-2 border border-stone-300 rounded-md w-full focus:outline-none focus:border-amber-600 focus:ring-1 focus:ring-amber-600" required>
@@ -26,45 +26,45 @@
                 </div>
                 <div class="mt-3 mb-5">
                     <label for="Address" class="block font-semibold mb-1">Address*</label>
-                    <textarea name="address" class="py-1 px-2 border border-stone-400 rounded-md w-full focus:outline-none focus:border-amber-600 focus:ring-1 focus:ring-amber-600"></textarea>
+                    <textarea name="address" class="py-1 px-2 border border-stone-400 rounded-md w-full focus:outline-none focus:border-amber-600 focus:ring-1 focus:ring-amber-600" required></textarea>
                 </div>
                 <hr class="border-x border-stone-300">
-                <h3 class="mt-4 mb-2 text-2xl text-[#d37029] font-medium">Select Your Items</h3>
+                <h3 class="mt-4 mb-2 text-xl text-[#d37029] font-medium">Select Your Items</h3>
                 <div class="mt-2">  
                     <label for="Breads" class="block font-semibold">Breads</label>
                     <div>
-                        <input type="checkbox" class="appearance-none w-[15px] h-[15px] border-2 border-amber-500 rounded checked:bg-amber-500 mt-2">
-                        <span class="ml-1 text-base">Sourdough Bread ($5.99)</span>
-                        <input type="number" min="0" value="0" class="w-13 border border-gray-400 rounded-md p-1 ml-20">
-                        <input type="checkbox" class="ml-13 appearance-none w-[15px] h-[15px] border-2 border-amber-500 rounded checked:bg-amber-500 mt-2">
-                        <span class="ml-1 text-base">French Baguette ($4.50)</span>
-                        <input type="number" min="0" value="0" class="w-13 border border-gray-400 rounded-md p-1 ml-20">
+                        <input type="checkbox" class="appearance-none w-[12px] h-[12px] border-2 border-amber-500 rounded checked:bg-amber-500 mt-2">
+                        <span class="ml-1 pr-10 text-sm">Sourdough Bread ($5.99)</span>
+                        <input type="number" min="0" max="9" value="0" class="text-sm border border-gray-400 rounded-md">
+                        <input type="checkbox" class="ml-13 appearance-none w-[12px] h-[12px] border-2 border-amber-500 rounded checked:bg-amber-500 mt-2">
+                        <span class="ml-1 pr-10 text-sm">French Baguette ($4.50)</span>
+                        <input type="number" min="0" max="9" value="0" class="text-sm border border-gray-400 rounded-md">
                     </div>
                 </div>
                 <div class="mt-4">  
                     <label for="Breads" class="block font-semibold">Pastries</label>
                     <div>
-                        <input type="checkbox" class="appearance-none w-[15px] h-[15px] border-2 border-amber-500 rounded checked:bg-amber-500 mt-2">
-                        <span class="ml-1 text-base">Butter Croissant ($3.50)</span>
-                        <input type="number" min="0" value="0" class="w-13 border border-gray-400 rounded-md p-1 ml-23">
-                        <input type="checkbox" class="ml-13 appearance-none w-[15px] h-[15px] border-2 border-amber-500 rounded checked:bg-amber-500 mt-2">
-                        <span class="ml-1 text-base">Blueberry Muffin ($3.25)</span>
-                        <input type="number" min="0" value="0" class="w-13 border border-gray-400 rounded-md p-1 ml-19">
+                        <input type="checkbox" class="appearance-none w-[12px] h-[12px] border-2 border-amber-500 rounded checked:bg-amber-500 mt-2">
+                        <span class="ml-1 pr-10 text-sm">Butter Croissant ($3.50)</span>
+                        <input type="number" min="0" max="9" value="0" class="text-sm border border-gray-400 rounded-md">
+                        <input type="checkbox" class="ml-13 appearance-none w-[12px] h-[12px] border-2 border-amber-500 rounded checked:bg-amber-500 mt-2">
+                        <span class="ml-1 pr-10 text-sm">Blueberry Muffin ($3.25)</span>
+                        <input type="number" min="0" max="9" value="0" class="text-sm border border-gray-400 rounded-md">
                     </div>
                 </div>
                 <div class="mt-4">  
-                    <label for="Cakes" class="block font-semibold">Cakes</label>
-                    <div>
-                        <input type="checkbox" class="appearance-none w-[15px] h-[15px] border-2 border-amber-500 rounded checked:bg-amber-500 mt-2">
-                        <span class="ml-1 text-base">Chocolate Cake ($28.99)</span>
-                        <input type="number" min="0" value="0" class="w-13 border border-gray-400 rounded-md p-1 ml-21">
-                        <input type="checkbox" class="ml-13 appearance-none w-[15px] h-[15px] border-2 border-amber-500 rounded checked:bg-amber-500 mt-2">
-                        <span class="ml-1 text-base">NY Cheesecake ($32.00)</span>
-                        <input type="number" min="0" value="0" class="w-13 border border-gray-400 rounded-md p-1 ml-20">
+                    <label for="Breads" class="block font-semibold">Cakes</label>
+                    <div class>
+                        <input type="checkbox" class="appearance-none w-[12px] h-[12px] border-2 border-amber-500 rounded checked:bg-amber-500 mt-2">
+                        <span class="ml-1 pr-10 text-sm">Chocolate Cake ($28.99)</span>
+                        <input type="number" min="0" max="9" value="0" class="text-sm border border-gray-400 rounded-md">
+                        <input type="checkbox" class="ml-13 appearance-none w-[12px] h-[12px] border-2 border-amber-500 rounded checked:bg-amber-500 mt-2">
+                        <span class="ml-1 pr-10 text-sm">NY Cheesecake ($32.00)</span>
+                        <input type="number" min="0" max="9" value="0" class="text-sm border border-gray-400 rounded-md">
                     </div>
                 </div> 
-                <div class="flex items-center justify-center mt-10">
-                    <button type="submit" class="font-semibold px-8 py-2 bg-amber-900 text-white rounded-full hover:bg-amber-700 focus:outline-2 focus:outline-offset-2 focus:outline-amber-900 active:bg-amber-800 transition-all duration-200">Place Order</button>
+                <div class="flex items-center justify-center mt-6">
+                    <button type="submit" class="font-semibold py-2 px-5 bg-amber-900 text-white rounded-full hover:bg-amber-700 focus:outline-2 focus:outline-offset-2 focus:outline-amber-900 active:bg-amber-800">Place Order</button>
                 </div>
             </form> 
         </div>
