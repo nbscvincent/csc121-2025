@@ -1,0 +1,42 @@
+acitivity (4/12/25)
+
+#student attendance and behavior
+let studentName = "ella"
+let attendanceRate = 85
+let hasGoodBehavior = false
+
+if (attendanceRate >= 80 && hasGoodBehavior == true) {
+  console.log("Good Job")
+}
+
+if (attendanceRate <= 0 ) {
+console.log("You need to improve your attendance.")
+}
+
+else {
+console.log("You need to improve your behavior.")
+}
+
+# voting kinemerot
+let age = 12;
+
+(age >= 18) ? console.log("you are allowed to vote") : console.log("minor momints")
+
+#Array
+const emptyArray = [];
+
+const numbers = [1,2,3,4,5];
+const colors = ['green', 'red', 'blue'];
+const mixedDataTypes = [1, 'string', 'True', {key: 'value' }];
+
+console.log(colors)
+
+const emptyArray = [];
+
+
+let colors= ['green', 'red'];
+colors.push("pink")
+colors.unshift("yellow")
+colors.shift();
+colors.pop();
+console.log(colors)
