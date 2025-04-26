@@ -1,0 +1,32 @@
+const student = {
+  name: "Sam",
+  subject: {
+  sched: "monday",
+  
+  
+  }
+};
+
+console.log(student.subject.sched);
+
+
+
+const student = {
+  name: "Sam",
+  subject: {
+  sched: "monday",
+  
+  
+  
+  }
+};
+
+console.log(student.subject.sched);
+
+ 
+
+console.log(Object.keys(student)) //monday [ 'name', 'subject' ]
+console.log(Object.values(student)) //monday [ 'Sam', { sched: 'monday' } ]
+console. log(Object.entries(student)) //monday [ [ 'name', 'Sam' ], [ 'subject', { sched: 'monday' } ] ]
+
+
