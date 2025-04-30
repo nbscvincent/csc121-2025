@@ -1,0 +1,27 @@
+const student = {
+  name: "Mark ",
+  subject: {
+    sub1: "webdev",
+    sub2: "tech entrep"
+  }
+};
+
+//console.log(student.subject.sub2);
+ 
+//console.log(Object.keys(student)) // output(name, subject)
+//console.log(Object.values(student)) // Mark {sub1:webdev, sub2: tech entrep}
+//console.log(Object.entries(student)) //[name: mark], [subject, {sub1: webdev, sub2: 'tech entrep'}]
+
+Object.keys(student) 
+
+// Could be GET or POST/PUT/PATCH/DELETE
+
+fetch('https://dummyjson.com/test')
+.then(res => res.json())
+.then(console.log);
+
+
+fetch('https://dummyjson.com/products')
+.then(res => res.json())
+.then(console.log);
+

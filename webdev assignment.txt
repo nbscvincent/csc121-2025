@@ -1,0 +1,60 @@
+Skills
+[
+   {
+      "Id" : 1,
+       "name" : "html"
+   }
+
+   {
+     "Id" : 2,
+     "name" : "css"
+   }
+
+  {
+     "Id" : 3,
+     "name" : "c and c++"
+   }
+   
+  {
+     "Id" : 4,
+     "name" : "basic python"
+  }
+]
+
+Projects
+[ 
+  {
+     "Id" : 1,
+     "Name" : "calculator"
+  }
+  {
+     "Id" : 2,
+     "Name" : "cookbook website"
+  }
+  {
+     "Id" : 3,
+     "Name" : "portfolio"
+  }
+  {
+     "Id" : 4,
+     "Name" : "special game"
+  }
+]
+
+Contacts 
+[ 
+  {
+     "Id": 1,
+     "Name" : "email"
+  }
+  {
+     "Id": 2,
+     "Name" : "phone number"
+  }
+  {
+     "Id": 3,
+     "Name" : "Facebook"
+  }
+]
+
+
