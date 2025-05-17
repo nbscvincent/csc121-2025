@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio | Sam</title>
+  <meta name="description" content="Welcome to the personal portfolio of Sam, a first-year Computer Science student at NBS College. Explore my projects and get in touch!" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image" href="computer.png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="overflow-x-hidden font-[Poppins] bg-white">
+
+  <!--nav bar-->
+  <header id="home" class="pt-10 lg:pt-8 pb-0 lg:pb-16">
+    <div class="container mx-auto px-6">
+
+      <nav class="flex flex-wrap justify-between items-center font-medium bg-black text-white px-6 py-6 sticky top-0 z-10">
+        <a href="#home" class="text-2xl font-bold text-white hover:text-blue-400 transition-colors duration-200">Sam Villegas</a>
+       
+        <div class="flex space-x-8">
+          <a href="#home" class="hover:text-blue-400 hover:underline underline-offset-4 transition-colors duration-200">Home</a>
+          <a href="#projects" class="hover:text-blue-400 hover:underline underline-offset-4 transition-colors duration-200">Projects</a>
+          <a href="#about" class="hover:text-blue-400 hover:underline underline-offset-4 transition-colors duration-200">About</a>
+          <a href="#contact" class="hover:text-blue-400 hover:underline underline-offset-4 transition-colors duration-200">Contact</a>
+          <a href="https://tinyurl.com/m63a9tys" class="hover:text-blue-400 hover:underline underline-offset-4 transition-colors duration-200">Resume</a>
+        </div>
+      </nav>      
+
+    </div>
+</header>
+
+  <div class="m-8 p-8 flex flex-col items-center gap-6 h-full md:flex-row">
+    <img src="sn.png" alt="Profile" class="w-48 h-48 md:w-80 md:h-80 rounded-full object-cover" />
+    <h1 class="text-base md:text-3xl text-black text-center md:text-left">Hi, I'm Sam! A first-year student at NBS College</h1>
+  </div>
+
+  <!--projects-->
+  <section id="projects" class="m-20">
+    <div class="w-full overflow-hidden whitespace-nowrap text-2xl font-bold my-12">
+      <span class="ml-10 text-black font-bold">My Projects</span>
+    </div>
+
+    <section class="container mx-auto px-4 grid grid-cols-12 gap-6">
+      <a href="https://github.com/snvb12/Simple-Calculator.git" target="_blank" class="col-span-12 md:col-span-4 border border-white rounded-md bg-gray-800 p-4 hover:bg-gray-700 transition relative">
+        <h2 class="text-lg lg:text-xl font-medium mb-4 text-white">Simple Calculator</h2>
+        <p class="text-white">This is a basic calculator program written in C language. It allows users to perform basic operations like addition, subtraction, multiplication, and division.</p>
+      </a>
+
+      <a href="https://github.com/snvb12/Simple-Website.git" target="_blank" 
+        class="col-span-12 md:col-span-4 border border-white rounded-md bg-gray-800 p-4 hover:bg-gray-700 transition relative">
+        <h2 class="text-lg lg:text-xl font-medium mb-4 text-white">Simple Website - Concon's Bakeshop</h2>
+        <p class="text-white">A simple website built with HTML for structure and Tailwind CSS for fast, responsive styling, making the design process quicker and more efficient.</p>
+      </a>
+
+      <a href="#" target="_blank" 
+        class="col-span-12 md:col-span-4 border border-white rounded-md bg-gray-800 p-4 hover:bg-gray-700 transition relative">
+        <h2 class="text-lg lg:text-xl font-medium mb-4 text-white">Portfolio</h2>
+        <p class="text-white">This is my personal portfolio created using HTML for structure and Tailwind CSS for fast, responsive styling. It showcases my projects and skills in a clean and modern design.</p>
+      </a>
+
+      <a href="#" target="_blank" 
+        class="col-span-12 md:col-span-4 border border-white rounded-md bg-gray-800 p-4 hover:bg-gray-700 transition relative">
+        <h2 class="text-lg lg:text-xl font-medium mb-4 text-white">Inventory System</h2>
+        <p class="text-white">This is my personal portfolio created using HTML for structure and Tailwind CSS for fast, responsive styling. It showcases my projects and skills in a clean and modern design.</p>
+      </a>
+    </section>
+  </section>
+
+  <!--about-->
+  <section id="about" class="pt-24 pb-8 bg-white">
+    <div class="container mx-auto px-6 grid grid-cols-12 gap-8">
+      <div class="col-span-12 lg:col-span-8 col-start-1 lg:col-start-3 text-white text-center">
+        <h2 class="text-3xl font-bold mb-4 text-black">About Me</h2>
+        <p class="text-lg text-black">Hi, I'm Sam! a first-year Computer Science student at NBS College. I'm interested in learning web development and currently working on improving my skills in HTML, CSS, and JavaScript. I'm excited to learn more and build projects as I continue my studies.</p>
+      </div>
+    </div>
+  </section>
+
+  <!--contacts-->
+  <section id="contact" class="pt-24 pb-8 bg-white">
+    <div class="container mx-auto px-6 grid grid-cols-12 gap-8">
+      <div class="col-start-1 lg:col-start-4 col-span-12 lg:col-span-6 flex flex-col justify-center text-center mb-16 lg:mb-24">
+        <span class="ml-10 text-black text-2xl">Get In Touch</span>
+        <div id="ff-compose" class="bg-black"></div>
+        <script async defer src="https://formfacade.com/include/116494352004436847815/form/1FAIpQLSfhFxHAP3rD9baSeJV_lZZ4ATuz5IHzeNkGCmjr5SQyG81oew/classic.js?div=ff-compose"></script>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer-->
+  <footer class="bg-gray-500 text-white border-t border-gray-600 py-4 px-6 flex flex-col md:flex-row items-center justify-between">
+    <p class="text-center md:text-left mb-4 md:mb-0">&copy; CodeWithSn. All rights reserved.</p>
+    <div class="flex space-x-4">
+      <a href="https://www.facebook.com/snica.villegas" target="_blank" rel="noopener noreferrer">
+        <img src="facebook (1).png" alt="Facebook" class="w-10 h-10" />
+      </a>
+      <a href="https://tinyurl.com/pnu4ts4v" target="_blank" rel="noopener noreferrer">
+        <img src="linkedin.png" alt="LinkedIn" class="w-10 h-10" />
+      </a>
+      <a href="https://tinyurl.com/53spam7d" target="_blank" rel="noopener noreferrer">
+        <img src="instagram.png" alt="Instagram" class="w-10 h-10" />
+      </a>
+    </div>
+  </footer>
+
+</body>
+</html>
